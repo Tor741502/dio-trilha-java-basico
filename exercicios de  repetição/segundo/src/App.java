@@ -16,5 +16,7 @@ public class App {
         }
 
         System.out.println("fim");
+
+        input.close();
     }
 }
