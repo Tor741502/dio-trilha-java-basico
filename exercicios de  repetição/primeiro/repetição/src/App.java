@@ -18,8 +18,9 @@ public class App {
                 break;
             }
 
-            System.out.println("end");
         }
+
+        System.out.println("end");
 
     
 
