@@ -7,11 +7,21 @@ public class App {
         String nome;
         int idade;
 
-        System.out.println("informe o seu nome: ");
-        nome = input.next();
+        while(true){
+            System.out.println("Nome: ");
+            nome = input.next();
 
-        System.out.println("informe sua idade: ");
-        idade = input.nextInt();
+            System.out.println("Idade: ");
+            idade = input.nextInt();
+
+            if(nome.equals(0)){
+                break;
+            }
+
+            System.out.println("end");
+        }
+
+    
 
 
         
