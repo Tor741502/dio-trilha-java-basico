@@ -11,12 +11,14 @@ public class App {
             System.out.println("Nome: ");
             nome = input.next();
 
+            if(nome.equals("0")){
+                break;
+            }
+
             System.out.println("Idade: ");
             idade = input.nextInt();
 
-            if(nome.equals(0)){
-                break;
-            }
+            
 
         }
 
