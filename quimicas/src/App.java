@@ -15,8 +15,8 @@ public class App {
         aM = aN + n;
         String elementSymbol = getElementSymbol(aN);
         
-        System.out.println("Número atômico: " + aN);
-        System.out.println("Número de massa: " + aM);
+        System.out.println("(Z) Número atômico: " + aN);
+        System.out.println("(A) Número de massa: " + aM);
         System.out.println("Elemento químico: " + elementSymbol);
 
         scanner.close();
