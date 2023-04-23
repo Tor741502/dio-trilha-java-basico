@@ -3,20 +3,23 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        int aN, aM, n;
         
         System.out.println("Digite o número de prótons:");
-        int atomicNumber = scanner.nextInt();
+        aN = scanner.nextInt();
         
-        Scanner scanner2 = new Scanner(System.in);
         System.out.println("Digite o número de nêutrons:");
-        int neutrons = scanner2.nextInt();
+        n = scanner.nextInt();
         
-        int atomicMass = atomicNumber + neutrons;
-        String elementSymbol = getElementSymbol(atomicNumber);
+        aM = aN + n;
+        String elementSymbol = getElementSymbol(aN);
         
-        System.out.println("Número atômico: " + atomicNumber);
-        System.out.println("Número de massa: " + atomicMass);
+        System.out.println("Número atômico: " + aN);
+        System.out.println("Número de massa: " + aM);
         System.out.println("Elemento químico: " + elementSymbol);
+
+        scanner.close();
     }
     
     public static String getElementSymbol(int atomicNumber) {
