@@ -24,5 +24,7 @@ public class App {
 
         System.out.println("O maior numero digitado foi: " + maior);
         System.out.println("A media dos seus numeros é de " + soma/cont);
+
+        input.close();
     }
 }
