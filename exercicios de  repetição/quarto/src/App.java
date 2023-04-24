@@ -25,5 +25,7 @@ public class App {
 
         System.out.println("Pares: " + pares);
         System.out.println("impares: " + inpares);
+
+        input.close();
     }
 }
