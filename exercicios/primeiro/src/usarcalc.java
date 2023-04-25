@@ -7,7 +7,12 @@ public class usarcalc{
         calc.sub(0, 0);
         calc.div(0, 0);
         calc.mult(0, 0);
-        
+
+        mensaginha.obterMensagem(0);
+        mensaginha.obterMensagem(0);
+        mensaginha.obterMensagem(0);
+        mensaginha.obterMensagem(0);
+
 
     }
 }
