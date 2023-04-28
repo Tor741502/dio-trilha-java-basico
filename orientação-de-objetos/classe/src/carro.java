@@ -1,7 +1,6 @@
 
-
-class carro{
-    String cor;
-    String modelo;
-    int capacidadeTanque;
+public class carro {
+    public static void main(String[] args) {
+        System.out.println("Hello master!");
+    }
 }
