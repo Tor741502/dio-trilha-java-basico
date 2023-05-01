@@ -25,7 +25,39 @@ public class exercicioLista {
             System.out.println("O valor não está na lista!");
         }
 
+        System.out.println("adicione o valor 8 na 4 posição da lista");
+        System.out.println("digite o valor q vc deseja incerir: ");
+        double valor = input.nextDouble();
+        System.out.println("Digite a posição q vc  deseja inserir: ");
+        int posicao2 = input.nextInt();
+        sla = posicao2 - 1;
+        notas.add(sla, valor);
+        System.out.println(notas);
 
+        System.out.println("Digite o valor q deseja substiruir: ");
+        double valorSub = input.nextDouble();
+
+        sla = notas.indexOf(valorSub);
+
+        if(sla != -1){
+            System.out.println("Digite o novo valor: ");
+            valorSub = input.nextDouble();
+            notas.set(sla, valorSub);
+        }else {
+            System.out.println("O valor n se encotra na lista");
+        }
+
+        System.out.println(notas);
+
+        System.out.println("Verifique se o numero 5 esta na lista");
+        System.out.println("Qual numero vc deseja verificar: ");
+        valorSub = input.nextDouble();
+
+        if(notas.contains(valorSub)){
+            System.out.println("Esse valor consta na lista");
+        }else {
+            System.out.println("Esse valor n esta na lista");
+        }
 
 
     }
