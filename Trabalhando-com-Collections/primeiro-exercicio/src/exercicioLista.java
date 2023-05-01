@@ -59,6 +59,11 @@ public class exercicioLista {
             System.out.println("Esse valor n esta na lista");
         }
 
+        System.out.println("Exiba todas as notas na ordem em q foram adicionados");
+        for (Double nota : notas) {
+            System.out.println(nota);
+            
+        }
 
     }
 }
